@@ -1,0 +1,30 @@
+.overlay {
+  position: fixed; //установливают позицию элемента относительно браузера, так что элемент остается на фиксированном месте при прокрутке страницы.
+  width: 100%;
+  height: 100vh; //установливают высоту элемента так чтобы он занимал всю доступную высоту окна браузера.
+  top: 0;
+  left: 0;
+  background-color: #00000090;
+  //display: none;
+}
+
+.popup{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  padding: 50px 0;
+  &__form-top{
+    display: flex;
+    cursor:pointer;
+    justify-content: center;
+    column-gap: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+
+  }
+}

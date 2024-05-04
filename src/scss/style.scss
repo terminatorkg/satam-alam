@@ -1,0 +1,17 @@
+*{ //применить ко всем элементам на странице
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; //установливает модель размеров шде ширина и высота элемента включают в себя границы и заполнение, но не внешние поля.
+  list-style-type: none; //для всех списков нет круглых квадратиков
+  text-decoration: none; // без подчеркивание над под текст
+}
+.container{
+  max-width: 1240px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+@import 'header';
+@import "popup";
+
